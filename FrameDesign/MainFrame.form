@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainFrame">
+  <grid id="27dc6" binding="ContentPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="22" width="627" height="432"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="aa039" binding="UpPanel" custom-create="true" layout-manager="FlowLayout" hgap="40" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-4270593"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="bc709" binding="UpLeftPanel" custom-create="true" layout-manager="FlowLayout" hgap="10" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <background color="-4270593"/>
+              <enabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="293f5" class="javax.swing.JButton" binding="TransButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-4270593"/>
+                  <enabled value="true"/>
+                  <font size="16"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <text value="翻译"/>
+                </properties>
+              </component>
+              <component id="9ab55" class="javax.swing.JButton" binding="BookButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-4270593"/>
+                  <enabled value="true"/>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <text value="单词本"/>
+                </properties>
+              </component>
+              <component id="f9219" class="javax.swing.JButton" binding="MessageButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-4270593"/>
+                  <enabled value="true"/>
+                  <font size="16"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <text value="消息"/>
+                </properties>
+              </component>
+              <component id="7b1d3" class="javax.swing.JButton" binding="OnlineButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-4270593"/>
+                  <font size="16"/>
+                  <text value="用户"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b8963" binding="UpRightPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+            <constraints/>
+            <properties>
+              <background color="-4270593"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a1df4" class="javax.swing.JButton" binding="LoginButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-4270593"/>
+                  <font size="16"/>
+                  <text value="登录"/>
+                </properties>
+              </component>
+              <component id="bdd96" class="javax.swing.JButton" binding="RegisterButton" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-4270593"/>
+                  <font size="16"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="2"/>
+                  <text value="注册"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="f877f" binding="CenterPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3f04f" class="javax.swing.JLabel" binding="Blanklabel1" custom-create="true">
+            <constraints/>
+            <properties>
+              <text value="            "/>
+            </properties>
+          </component>
+          <component id="64969" class="javax.swing.JButton" binding="LastwordButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1513240"/>
+              <enabled value="true"/>
+              <hideActionText value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c674f" class="javax.swing.JButton" binding="NextwordButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <background color="-1513240"/>
+              <enabled value="true"/>
+              <hideActionText value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="aee2c" class="javax.swing.JTextField" binding="SearchwordtextField" custom-create="true">
+            <constraints/>
+            <properties>
+              <columns value="20"/>
+              <editable value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ba46a" class="javax.swing.JButton" binding="SearchButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <text value="翻译"/>
+            </properties>
+          </component>
+          <component id="37be3" class="javax.swing.JButton" binding="OnlinesearchButton">
+            <constraints/>
+            <properties>
+              <hideActionText value="false"/>
+              <text value="网络"/>
+            </properties>
+          </component>
+          <component id="fcaa8" class="javax.swing.JLabel" binding="BlankLabel2" custom-create="true">
+            <constraints/>
+            <properties>
+              <text value="                 "/>
+            </properties>
+          </component>
+          <component id="f909d" class="javax.swing.JCheckBox" binding="checkBox1">
+            <constraints/>
+            <properties>
+              <selected value="false"/>
+              <text value="有道词典"/>
+            </properties>
+          </component>
+          <component id="f3e46" class="javax.swing.JCheckBox" binding="百度词典CheckBox" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="百度词典"/>
+            </properties>
+          </component>
+          <component id="649d7" class="javax.swing.JCheckBox" binding="必应词典CheckBox" default-binding="true">
+            <constraints/>
+            <properties>
+              <selected value="false"/>
+              <text value="必应词典"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
